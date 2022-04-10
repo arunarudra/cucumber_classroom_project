@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
     	//tags = {"@sanity or (@regression and @rapid)"},
     	//tags= {"not @sanity"},
     	glue = {"StepDefinitions"},
-    	plugin = {"pretty","html:test-output","json:test-output/cucumber.jason"}
+    	plugin = {"pretty","html:test-output","json:test-output/cucumber.json"}
     	
     		
 		)
